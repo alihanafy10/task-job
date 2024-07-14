@@ -1,0 +1,35 @@
+
+
+.customer-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.customer-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.customer-card h3 {
+  margin-top: 0;
+}
+
+.customer-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.customer-card li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.customer-card li span {
+  display: block;
+}
